@@ -24,6 +24,9 @@ def EnterMove(board):
     DisplayBoard(board)
     print("List of open positions:",MakeListOfFreeFields(board))
     myinput = int(input("Your turn!! Enter number of square you wish to play: [1-9]"))
+    if myinput not in MakeListOfFreeFields(board):
+        print("Enter proper values.")
+        print("Only 3 wrong attempts allowed")
     print("Value is" ,str(myinput))
     board[myinput]="O"
     DisplayBoard(board)
