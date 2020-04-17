@@ -1,14 +1,3 @@
-https://infoviz    tatamotors    com/t/CVBUTML/views/CVLeadershipDashboard/CVPreSales?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no&:origin=viz_share_link
-
-
-
-
-
-var viewName = "t/CVBUSales/views/CVBUPipelineDashboard/PipelineSummary_2";
-
-
-
-
 def sudokuChk(x):
     for i in x:
         rs=0
