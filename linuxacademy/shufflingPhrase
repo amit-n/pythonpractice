@@ -1,0 +1,11 @@
+from random import shuffle as ls
+
+def str_shuffle(phrase):
+   list_phrase = list(phrase)
+   ls(list_phrase)
+   return "".join(list_phrase)
+
+
+def reverse(phrase):
+   return (phrase[::-1])
+
